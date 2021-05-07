@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  color: whitesmoke;
+  margin: auto;
+}
+
+.report{
+  text-align: center;
+  color: white;
+}
+
+.input{
+  font-size: 30px;
+  width: 32%;
+  margin-top: 1rem;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  border-radius: 0;
+}
+.input:focus{
+  outline: none;
+}
+
+.button {
+  font-size: 16px;
+  height: 45px;
+  padding: 5px;
+  width: 140px;
+  background-color: rgb(220, 220, 2);
+  border-radius: 25px;
+  margin-left: 5px;
+  border: 1px solid transparent;
+}
+.button:hover{
+  background-color: rgba(193, 193, 18, 0.865);
+}
+
+.text-size{
+  font-size: 45px;
+  font-weight: bolder;
+}
+.moreInfo{
+  height : 28px;
+  width: 110px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: auto;
+  background-color: rgb(186, 19, 19);
+}
+.moreInfo:hover{
+  background-color: rgb(125, 18, 18);
+}
+
+.moreInfoContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: auto;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.moreInfoContainer div{
+  padding: 15px;
+  width: 30%;
+  border: 1px solid transparent;
+}
+.header{
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+.header div{
+  width: 30%;
+  color: rgba(0, 0, 0, 0.256);
+}
+#blue{
+  color: rgb(0, 0, 24);
+}
